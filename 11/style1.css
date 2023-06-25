@@ -1,13 +1,18 @@
-.contBlue{
+.contBlue {
   max-width: 1920px;
   width: 100%;
   padding: 66px 249px 0;
-  background: radial-gradient(50% 50% at 50% 50%, #2e73da 0%, #3743d4 88.02%);
+  margin: 0 auto;
 }
-.contWhite{
+
+.wrapperBlue {
+  background: radial-gradient(50% 50% at 50% 50%, #2e73da 0%, #3743d4 88.02%);
+  width: 100%;
+}
+.contWhite {
   max-width: 1920px;
   width: 100%;
-
+  margin: 0 auto;
   background: white;
   padding-top: 105px;
   padding-bottom: 105px;
@@ -34,7 +39,7 @@ body a {
 
 .header a {
   color: white;
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
@@ -60,7 +65,7 @@ body a {
 }
 
 .org {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -69,7 +74,7 @@ body a {
 }
 
 .dep {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   color: white;
   font-style: normal;
@@ -85,7 +90,7 @@ body a {
   font-weight: 400;
   font-size: 28px;
   line-height: 35px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -99,7 +104,7 @@ body a {
 }
 
 .test p {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -144,7 +149,7 @@ body a {
   height: 147px;
   padding: 36px 34px;
   border-radius: 10px;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -163,7 +168,7 @@ body a {
 }
 
 .goal__grid__el__cont::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -20px;
   right: -20px;
@@ -175,7 +180,7 @@ body a {
 }
 
 h1 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -206,7 +211,7 @@ h1 {
 }
 
 .participate__text {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -219,7 +224,7 @@ h1 {
   padding-bottom: 220px;
 }
 .schedule__text {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -239,154 +244,233 @@ h1 {
   display: grid;
   margin-top: 90px;
 }
-.scheudle__date{
+.scheudle__date {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #BBC0FF;
+  color: #bbc0ff;
   align-self: flex-start;
 }
 
-.schedule__right{
+.schedule__right {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  border-left: 4px solid #BBC0FF;
+  border-left: 4px solid #bbc0ff;
   padding-left: 50px;
   min-height: 60px;
   justify-content: center;
 }
-.schedule__subText{
+.schedule__subText {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.scheudle__datee{
+.scheudle__datee {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #BBC0FF;
+  color: #bbc0ff;
   align-self: flex-start;
   padding-left: 78px;
 }
 
-.schedule__rightt{
+.schedule__rightt {
   display: flex;
   flex-direction: column;
   row-gap: 3px;
-  border-left: 4px solid #BBC0FF;
+  border-left: 4px solid #bbc0ff;
   padding-left: 50px;
   min-height: 60px;
   justify-content: center;
-  
 }
 
-.schedule__grid__ell{
+.schedule__grid__ell {
   grid-template-columns: 20% 80%;
   align-items: center;
   column-gap: 48px;
   display: grid;
 }
 
-.schedule__numbers{
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 30px;
-color: #FFFFFF;
-
-}
-.schedule__text1{
+.schedule__numbers {
   font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-color: #FFFFFF;
-margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
 }
-.schedule__grid__elll{
-grid-template-columns: 20% 80%;
-align-items: center;
-column-gap: 48px;
-display: grid;
+.schedule__text1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.schedule__grid__elll {
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  column-gap: 48px;
+  display: grid;
 }
 
-.criterion{
+.criterion {
   margin-top: 220px;
   display: flex;
   flex-direction: column;
   row-gap: 91px;
 }
 
-.criterion__text{
-font-family: Montserrat;
-font-size: 48px;
-font-weight: 700;
-line-height: 59px;
-letter-spacing: 0em;
-text-align: left;
-color: white;
+.criterion__text {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
 }
-.time{
-  position: absolute; 
+.time {
+  position: absolute;
   left: 855px;
-  top: 100px
+  top: 100px;
 }
-.message{
+.message {
   background: white;
   border-radius: 40px 40px 40px 0px;
-  padding:35px 77px;
+  padding: 35px 77px;
   font-family: Mulish;
   font-weight: 400;
   font-size: 30px;
   line-height: 37px;
   width: fit-content;
   position: relative;
-
 }
-.criterion__grid{
+.criterion__grid {
   display: flex;
   flex-direction: column;
   row-gap: 37px;
 }
-.message_mod{
-margin-left:auto;
-border-radius: 40px 40px 0px 40px;
+.message_mod {
+  margin-left: auto;
+  border-radius: 40px 40px 0px 40px;
 }
-.message span{
-position: absolute;
-
+.message span {
+  position: absolute;
 }
-.message img{
-fill: white;
-position: absolute;
-bottom: 0;
-right: -20px;
-display: block;
-height: 20px;
-width: 20px;
+.message img {
+  fill: white;
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+  display: block;
+  height: 20px;
+  width: 20px;
 }
-.register{
+.register {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.register__header_title{
-  color:#3743D4;
-  font-family: "Mulish";
+.register__header_title {
+  color: #3743d4;
+  font-family: 'Mulish';
   font-weight: 600;
   font-size: 36px;
-  
+}
+.choose {
+  display: flex;
+  column-gap: 15px;
+  color: #3743d4;
+  text-align: center;
+  font-size: 24px;
+  font-family: Mulish;
+  font-weight: 600;
+  align-items: center;
+}
+.choose_right {
+  display: flex;
+  column-gap: 10px;
+  font-size: 20px;
+}
+.choose_number {
+  border-radius: 4px;
+  border: 2px solid #3743d4;
+  padding: 7px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.choose_number_mod {
+  border-radius: 4px;
+  background: #3743d4;
+  padding: 7px 13px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.register__header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
 }
 
+.forms__title {
+  color: #3743d4;
+  text-align: center;
+  font-size: 24px;
+  font-family: Mulish;
+  font-weight: 600;
+}
+
+.forms__el {
+  color: #3743d4;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-family: Mulish;
+  font-weight: 600;
+  align-items: center;
+  row-gap: 45px;
+  width: 100%;
+}
+
+.forms {
+  margin-top: 149px;
+  max-width: 581px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.forms__inputs {
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+  width: 100%;
+}
+.forms__inputs input {
+  width: 100%;
+  color: #595959;
+font-size: 18px;
+font-family: Mulish;
+outline: none;
+border: 2px solid #717171;
+border-left: 0;
+border-right: 0;
+ border-top: 0;
+ padding-bottom: 12px ;
+}
