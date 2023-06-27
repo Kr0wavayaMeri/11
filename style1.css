@@ -9,6 +9,7 @@
   background: radial-gradient(50% 50% at 50% 50%, #2e73da 0%, #3743d4 88.02%);
   width: 100%;
 }
+
 .contWhite {
   max-width: 1920px;
   width: 100%;
@@ -17,6 +18,7 @@
   padding-top: 105px;
   padding-bottom: 105px;
 }
+
 body h1 {
   margin: 0;
 }
@@ -218,11 +220,13 @@ h1 {
   line-height: 25px;
   color: #ffffff;
 }
+
 .schedule {
   margin-top: 220px;
   position: relative;
   padding-bottom: 220px;
 }
+
 .schedule__text {
   font-family: 'Montserrat';
   font-style: normal;
@@ -231,12 +235,14 @@ h1 {
   line-height: 59px;
   color: white;
 }
+
 .schedule__grid {
   padding-left: 120px;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
 }
+
 .schedule__grid__el {
   grid-template-columns: 20% 80%;
   align-items: center;
@@ -244,6 +250,7 @@ h1 {
   display: grid;
   margin-top: 90px;
 }
+
 .scheudle__date {
   font-family: 'Mulish';
   font-style: normal;
@@ -263,6 +270,7 @@ h1 {
   min-height: 60px;
   justify-content: center;
 }
+
 .schedule__subText {
   font-family: 'Mulish';
   font-style: normal;
@@ -308,6 +316,7 @@ h1 {
   line-height: 30px;
   color: #ffffff;
 }
+
 .schedule__text1 {
   font-family: 'Mulish';
   font-style: normal;
@@ -317,6 +326,7 @@ h1 {
   color: #ffffff;
   margin-bottom: 24px;
 }
+
 .schedule__grid__elll {
   grid-template-columns: 20% 80%;
   align-items: center;
@@ -340,11 +350,13 @@ h1 {
   text-align: left;
   color: white;
 }
+
 .time {
   position: absolute;
   left: 855px;
   top: 100px;
 }
+
 .message {
   background: white;
   border-radius: 40px 40px 40px 0px;
@@ -356,18 +368,22 @@ h1 {
   width: fit-content;
   position: relative;
 }
+
 .criterion__grid {
   display: flex;
   flex-direction: column;
   row-gap: 37px;
 }
+
 .message_mod {
   margin-left: auto;
   border-radius: 40px 40px 0px 40px;
 }
+
 .message span {
   position: absolute;
 }
+
 .message img {
   fill: white;
   position: absolute;
@@ -377,18 +393,21 @@ h1 {
   height: 20px;
   width: 20px;
 }
+
 .register {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .register__header_title {
   color: #3743d4;
   font-family: 'Mulish';
   font-weight: 600;
   font-size: 36px;
 }
+
 .choose {
   display: flex;
   column-gap: 15px;
@@ -399,11 +418,13 @@ h1 {
   font-weight: 600;
   align-items: center;
 }
+
 .choose_right {
   display: flex;
   column-gap: 10px;
   font-size: 20px;
 }
+
 .choose_number {
   border-radius: 4px;
   border: 2px solid #3743d4;
@@ -412,6 +433,7 @@ h1 {
   align-items: center;
   gap: 10px;
 }
+
 .choose_number_mod {
   border-radius: 4px;
   background: #3743d4;
@@ -420,6 +442,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
 .register__header {
   display: flex;
   flex-direction: column;
@@ -454,7 +477,9 @@ h1 {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  row-gap: 120px;
 }
+
 .forms__inputs {
 
   display: flex;
@@ -462,15 +487,121 @@ h1 {
   row-gap: 34px;
   width: 100%;
 }
+
 .forms__inputs input {
   width: 100%;
   color: #595959;
-font-size: 18px;
-font-family: Mulish;
-outline: none;
-border: 2px solid #717171;
-border-left: 0;
-border-right: 0;
- border-top: 0;
- padding-bottom: 12px ;
+  font-size: 18px;
+  font-family: Mulish;
+  outline: none;
+  border: 2px solid #717171;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 12px;
+}
+
+.forms__text {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 14px;
+  width: 100%;
+}
+
+.forms__text__el {
+  display: flex;
+
+  color: #595959;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+}
+
+.my-checkbox {
+  transform: scale(2);
+  margin-right: 11px;
+}
+
+.blue {
+  color: #3743D4;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+.black {
+  color: #000;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+.forms__el__file {
+  display: flex;
+  color: #595959;
+  font-size: 16px;
+  font-family: Mulish;
+  column-gap: 10px;
+}
+
+.forms__el__file span {
+  color: #3743D4;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+.forms__el__sample {
+  color: #000;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+.forms__el__footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 10px;
+}
+
+.forms__el__open {
+  color: #0500FF;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+}
+
+.forms__el__reg {
+  color: #3743D4;
+  text-align: center;
+  font-size: 20px;
+  font-family: Mulish;
+  font-weight: 600;
+  border-radius: 80px;
+  border: 2px solid #3743D4;
+  padding: 45px 0px;
+  width: 100%;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.forms__el__register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  width: 100%;
+}
+
+.forms__el__reg:hover{
+  background: #3743d4;
+  color: white;
+  transition: all 0.3s;
 }
